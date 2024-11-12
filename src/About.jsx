@@ -45,8 +45,12 @@ const About = () => {
           solutions and bring ideas to life. I love working with JavaScript and
           exploring new technologies.
         </p>
-        <a href="/Anagharani_CV.pdf" download="Anagharani_CV.pdf">
-          Download My CV
+        <a
+          href="/Anagharani_CV.pdf"
+          download="Anagharani_CV.pdf"
+          class="download-btn"
+        >
+          Download CV
         </a>
       </div>
     </section>
