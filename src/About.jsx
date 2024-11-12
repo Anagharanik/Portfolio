@@ -1,6 +1,6 @@
-import { useState, useEffect } from 'react';
-import anagha_photo from '/src/anagha_photo.jpg';
-import './About.css';
+import { useState, useEffect } from "react";
+import anagha_photo from "/src/anagha_photo.jpg";
+import "./About.css";
 
 const typingText = ["Frontend  Developer", "React Developer", "Web Developer"];
 
@@ -39,12 +39,15 @@ const About = () => {
     <section id="about" className="about-section">
       <img src={anagha_photo} alt="Profile" className="rounded-image" />
       <div className="about-content">
-        
         <h3>{displayText}</h3>
         <p>
-          I'm   Anagha  ,a passionate developer eager to create innovative solutions and bring ideas to life. I love working with JavaScript and exploring new technologies.
+          I'm Anagha ,a passionate developer eager to create innovative
+          solutions and bring ideas to life. I love working with JavaScript and
+          exploring new technologies.
         </p>
-       
+        <a href="/Anagharani_CV.pdf" download="Anagharani_CV.pdf">
+          Download My CV
+        </a>
       </div>
     </section>
   );
