@@ -3,18 +3,18 @@ import './Projects.css';
 const Projects = () => {
   const projectList = [
     {
-      title: " Full Stack Project of Accomodation Rental Platform",
-      description: "A responsive web application built with React.",
+      title: "Wanderlust",
+      description: "Full Stack Project of  Accommodation Rental Platform",
       link: "https://major-project-1v4u.onrender.com/listings",
     },
     {
       title: "CineSphere",
-      description: "A REST API built with Node.js and Express.",
+      description: "Global Movie Search App",
       link:"https://cinesphereproject.netlify.app/",
     },
     {
       title: "Clone Website(Frontend Only)",
-      description: "A REST API built with Node.js and Express.",
+      description: "Online Shopping Platform",
       link: "https://ecomm-amazon-clone.netlify.app/",
     },
 
